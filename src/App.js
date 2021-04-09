@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import './App.css';
 import Recipe from './Components/Recipe'
+import Title from './Components/Title';
 
 const App = () => {
 
@@ -33,6 +34,7 @@ const App = () => {
 
   return(
     <div className="App">
+      <Title title={'Recipes'} />
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch}></input>
         <button className="search-button" type="submit">Search</button>
