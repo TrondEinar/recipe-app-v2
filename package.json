@@ -1,7 +1,7 @@
 {
   "name": "recipe-app-v2",
   "version": "0.1.0",
-  "homepage": "https://TrondEinar.github.io/recipe-app-v2",
+  "homepage": "https://trondeinar.github.io/recipe-app-v2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
